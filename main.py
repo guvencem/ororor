@@ -1,5 +1,6 @@
 from fastapi import FastAPI
 import uvicorn
+from domainObjects import *
 from fastapi import FastAPI
 from binance.um_futures import UMFutures
 import time
