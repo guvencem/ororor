@@ -1,9 +1,7 @@
 from fastapi import FastAPI
 import uvicorn
-from domainObjects import *
 from fastapi import FastAPI
 from binance.um_futures import UMFutures
-from domainObjects import *
 import time
 
 default_price = 5 #dolar
