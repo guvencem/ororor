@@ -6,7 +6,7 @@ from binance.um_futures import UMFutures
 import time
 
 default_price = 5 #dolar
-DEFAULT_MULTIPLIER = 11
+DEFAULT_MULTIPLIER = 10
 
 #Init Binance ##################
 BINANCE_APIKEY_1 = "H7hSbRMY4yfPb5v6bt8HsI4lIB5lsh8Gd26tFkL1fZ58XK3BhFaToE9KNbUm7IWr"
