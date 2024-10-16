@@ -99,8 +99,8 @@ def processBuy(tickerName,side,client,default_price):
 
     print(priceOfCoin)
 
-    stopLossAmount = ((3 / 100) * (priceOfCoin)) / DEFAULT_MULTIPLIER
-    takeProfitAmount = ((11 / 100) * (priceOfCoin)) / DEFAULT_MULTIPLIER
+    stopLossAmount = ((0 / 100) * (priceOfCoin)) / DEFAULT_MULTIPLIER
+    takeProfitAmount = ((0 / 100) * (priceOfCoin)) / DEFAULT_MULTIPLIER
     print(priceOfCoin + takeProfitAmount)
 
     paramsForStopLoss = {
